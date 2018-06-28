@@ -1,0 +1,42 @@
+1. Java 
+	- String manupulation 
+	- *xml reader 
+	- *xlsx/xls reader
+2. Selenium Introduction
+3. Selenium IDE
+	- Installation
+	- Sample scenario using zero bank web site 
+	- verify and assert
+	- Tool bar
+	- Save and Open Test case and Test suite 
+4. Selenium Web driver
+	- Setup
+	 - Selenium Webdriver Jar file - https://goo.gl/LtVMqu
+	 - IE driver - https://goo.gl/fzqqyZ
+	 - Chrome - https://chromedriver.storage.googleapis.com/index.html?path=2.40/
+	 - gecko driver
+	- First Program
+		- Create a Java project
+		- Create a package/class
+		- Pull the necessary lib -Selenium library  (Selenium Webdriver Jar file)
+		- Start writing coding 		
+5. Locators
+	- Xpath - Xpath=//tagname[@attribute='value']
+	- CSS - CSS= HTML tag[attribute=''Value]
+	- functions in xpath and css
+6. Wait 
+	- Implict 
+	- Explicit 
+7. Highlight the element 
+8. Dropdown 
+9. Working with dynamic tables 
+10. JUnit 
+	- Create a junit testcase
+	- Attributes
+		- BeforeClass
+		- AfterClass
+		- Before
+		- After
+		- Test
+	- Test Case and Test Suite 
+	- Reporting 
