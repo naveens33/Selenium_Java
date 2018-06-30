@@ -22,6 +22,8 @@
 		- Start writing coding 		
 5. Locators
 	- Xpath - Xpath=//tagname[@attribute='value']
+		- Relative
+		- Absloute
 	- CSS - CSS= HTML tag[attribute=''Value]
 	- functions in xpath and css
 6. Wait 
@@ -42,6 +44,7 @@
 	- Reporting 
 	
 11. TestNG
+<<<<<<< HEAD
 BeforeSuite
 '   BeforeTest
 '   '   BeforeClass
@@ -72,3 +75,50 @@ BeforeSuite
 '   '   AfterClass
 '   AfterTest
 AfterSuite
+=======
+	- Install TestNG
+	- Create TestCase
+	- Create Test Suite
+	- Attributes
+	
+BeforeSuite
+'   BeforeTest
+'   '   BeforeClass
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod3
+'   '   '   AfterMethod
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod4
+'   '   '   AfterMethod
+'   '   AfterClass
+'   AfterTest
+'   BeforeTest
+'   '   BeforeClass
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod1
+'   '   '   AfterMethod
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod2
+'   '   '   AfterMethod
+'   '   AfterClass
+'   '   BeforeClass
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod3
+'   '   '   AfterMethod
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod4
+'   '   '   AfterMethod
+'   '   AfterClass
+'   AfterTest
+AfterSuite
+
+	- Reporting 
+	
+12. Data driven framework
+13. Grid 
+14. Firebug and Firepath 
+15. ****China time dropdown***
+16. Desired Capabilities
+17. Sauce Labs 
+18. BDD framework
+>>>>>>> branch 'master' of https://github.com/naveens33/Selenium_Java.git
