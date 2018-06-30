@@ -22,6 +22,8 @@
 		- Start writing coding 		
 5. Locators
 	- Xpath - Xpath=//tagname[@attribute='value']
+		- Relative
+		- Absloute
 	- CSS - CSS= HTML tag[attribute=''Value]
 	- functions in xpath and css
 6. Wait 
@@ -80,3 +82,10 @@ AfterSuite
 
 	- Reporting 
 	
+12. Data driven framework
+13. Grid 
+14. Firebug and Firepath 
+15. ****China time dropdown***
+16. Desired Capabilities
+17. Sauce Labs 
+18. BDD framework
