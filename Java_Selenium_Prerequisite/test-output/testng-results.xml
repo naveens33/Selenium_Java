@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18799" started-at="2018-06-30T03:27:28Z" finished-at="2018-06-30T03:27:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18799" started-at="2018-06-30T03:27:28Z" finished-at="2018-06-30T03:27:47Z">
+      <class name="testng.OnlineBanking">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:testng.OnlineBanking@bd1b6a]" name="openbrowser" is-config="true" duration-ms="4948" started-at="2018-06-30T03:27:23Z" finished-at="2018-06-30T03:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+      </class> <!-- testng.OnlineBanking -->
+      <class name="testng.Home">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.Home@be83e4]" name="beforeMethod" is-config="true" duration-ms="6166" started-at="2018-06-30T03:27:28Z" finished-at="2018-06-30T03:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterlogin()[pri:4, instance:testng.Home@be83e4]" name="afterlogin" duration-ms="12613" started-at="2018-06-30T03:27:35Z" finished-at="2018-06-30T03:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterlogin -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testng.Home@be83e4]" name="closebrowser" is-config="true" duration-ms="43" started-at="2018-06-30T03:27:47Z" finished-at="2018-06-30T03:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testng.Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

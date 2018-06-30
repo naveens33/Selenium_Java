@@ -40,3 +40,35 @@
 		- Test
 	- Test Case and Test Suite 
 	- Reporting 
+	
+11. TestNG
+BeforeSuite
+'   BeforeTest
+'   '   BeforeClass
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod3
+'   '   '   AfterMethod
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod4
+'   '   '   AfterMethod
+'   '   AfterClass
+'   AfterTest
+'   BeforeTest
+'   '   BeforeClass
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod1
+'   '   '   AfterMethod
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod2
+'   '   '   AfterMethod
+'   '   AfterClass
+'   '   BeforeClass
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod3
+'   '   '   AfterMethod
+'   '   '   BeforeMethod
+'   '   '   '   myTestMethod4
+'   '   '   AfterMethod
+'   '   AfterClass
+'   AfterTest
+AfterSuite
