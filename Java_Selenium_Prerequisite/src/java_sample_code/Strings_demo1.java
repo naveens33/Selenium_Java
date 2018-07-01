@@ -1,5 +1,5 @@
 //Code to understand split and parseInt 
-package prerequisite_string;
+package java_sample_code;
 
 import java.util.Scanner;
 

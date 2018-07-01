@@ -1,4 +1,4 @@
-package seleniumwebdriver;
+package selenium_webdriver;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class AddNewPayee {
+public class Add_new_payee {
 
 	static String driverPath="D:\\Selenium\\chromedriver_win32\\";
 	static public WebDriver driver;

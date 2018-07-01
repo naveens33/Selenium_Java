@@ -1,4 +1,4 @@
-package seleniumwebdriver;
+package selenium_webdriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class AssignLeavePage_Scenario {
+public class Assign_leave_page_scenario {
 
 	static String driverPath="D:\\Selenium\\geckodriver-v0.21.0-win32\\";
 	static public WebDriver driver;
