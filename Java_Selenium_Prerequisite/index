@@ -111,9 +111,7 @@ BeforeSuite
 '   '   AfterClass
 '   AfterTest
 AfterSuite
-
 	- Reporting 
-	
 12. Data driven framework
 13. Grid 
 14. Firebug and Firepath 
@@ -122,3 +120,5 @@ AfterSuite
 17. Sauce Labs 
 18. BDD framework
 >>>>>>> branch 'master' of https://github.com/naveens33/Selenium_Java.git
+19. Reporting - org.automationtesting.excelreport.Xl
+https://drive.google.com/file/d/0B3MavAHOpQakYlZwZGpqdzRqNXM/view

@@ -29,8 +29,9 @@ public class Home {
 		  link.add("My Money Map");  
   }
 	@AfterSuite
-	static public void closebrowser()
+	static public void closebrowser() throws Exception
 	{
+		GenerateReport.funGenerateReport();
 		driver.close();
 	}
 	@Ignore
