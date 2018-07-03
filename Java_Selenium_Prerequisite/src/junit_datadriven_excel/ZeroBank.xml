@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page>
+	<index>
+		<signin>//button[@id='signin_button']</signin>
+		<onlinebanking>//strong[contains(text(),'Online Banking')]</onlinebanking>
+	</index>
+	<login>
+		<username>//input[@id='user_login']</username>
+		<password>//input[@id='user_password']</password>
+		<signin>//input[@name='submit']</signin>
+	</login>
+</page>

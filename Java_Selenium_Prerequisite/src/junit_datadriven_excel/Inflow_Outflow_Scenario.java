@@ -23,7 +23,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class Inflow_Outflow_Scenario {
-	static String driverPath="D:\\Selenium Training\\chromedriver_win32(1)\\";
+	static String driverPath="D:\\Selenium\\chromedriver_win32\\";
 	static public WebDriver driver;
 	static ReadExcelFile obj;
 	@BeforeClass
@@ -33,20 +33,16 @@ public class Inflow_Outflow_Scenario {
 		System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		System.out.println("openbrowser");
-		
 	}
 	
 	@Before
 	public void login()
 	{
 		driver.navigate().to("http://zero.webappsecurity.com/index.html");
-		driver.findElement(By.id("signin_button")).click();
-		driver.findElement(By.id("user_login")).sendKeys("username");
-		driver.findElement(By.name("user_password")).sendKeys("password");
-		driver.findElement(By.name("submit")).click();
-		
-		System.out.println("login");
+		driver.findElement(By.xpath(Repository.getlocator("index","signin"))).click();
+		driver.findElement(By.xpath(Repository.getlocator("login","username"))).sendKeys("username");
+		driver.findElement(By.xpath(Repository.getlocator("login","password"))).sendKeys("password");
+		driver.findElement(By.xpath(Repository.getlocator("login","signin"))).click();
 	}
 
 	@After
