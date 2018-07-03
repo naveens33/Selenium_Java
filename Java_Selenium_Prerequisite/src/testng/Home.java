@@ -31,7 +31,7 @@ public class Home {
 	@AfterSuite
 	static public void closebrowser() throws Exception
 	{
-		GenerateReport.funGenerateReport();
+		//GenerateReport.funGenerateReport();
 		driver.close();
 	}
 	@Ignore
