@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.Home">
+      <class name="selenium_grid_demo.Grid_demo1">
         <methods>
-          <include name="closebrowser"/>
-          <include name="afterlogin"/>
-          <include name="beforeMethod"/>
+          <include name="sampleTest"/>
+          <include name="afterTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testng.Home -->
+      </class> <!-- selenium_grid_demo.Grid_demo1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
