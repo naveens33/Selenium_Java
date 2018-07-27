@@ -122,3 +122,12 @@ AfterSuite
 >>>>>>> branch 'master' of https://github.com/naveens33/Selenium_Java.git
 19. Reporting - org.automationtesting.excelreport.Xl
 https://drive.google.com/file/d/0B3MavAHOpQakYlZwZGpqdzRqNXM/view
+
+
+Selenium Grid
+
+Hub setup:
+1. download Selenium Standalone Server: https://goo.gl/4g538W
+2. Open the cmd and enter the below command 
+java -jar D:\selenium-server-standalone-3.13.0.jar -role hub
+
