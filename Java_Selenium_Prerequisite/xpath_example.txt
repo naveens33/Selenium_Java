@@ -1,0 +1,48 @@
+Relative 
+Absolute 
+
+/html/body/div/div/div/div/div/ul/li[2]/button
+
+
+/html/body/div[2]/div/div/div[2]/div
+
+//tagname[@attribute='value']
+
+//div[@class='disclaimer span12']
+//*[@class='disclaimer span12']
+
+contains(@attriburte,'value')
+
+//tagname[contains(@attriburte,'value')]
+
+//span[@id='download_webinspect_link']
+
+//span[contains(@id,'download_webinspect_link')]
+
+id='download_webinspect_13213546876845465465457'
+
+
+
+//span[contains(@id,'webinspect_')]
+
+
+starts-with(@attriburte,'value')
+
+//tagname[starts-with(@attriburte,'value')]
+
+//span[starts-with(@id,'download_')]
+
+
+/html/body/div[1]/div[2]/div/div/div/p
+
+//div[@class='offset3 span6']/p
+
+text()
+
+//tagname[contains(text(),'text')]
+
+//p[contains(text(),'So you forgot')]
+
+last()
+//table[@id='sample']\tbody\tr[last()]
+
