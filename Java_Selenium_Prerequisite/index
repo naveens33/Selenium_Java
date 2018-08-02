@@ -24,7 +24,7 @@
 	- Xpath - Xpath=//tagname[@attribute='value']
 		- Relative
 		- Absloute
-	- CSS - CSS= HTML tag[attribute=''Value]
+	- CSS - CSS= HTML tag[attribute='Value']
 	- functions in xpath and css
 6. Wait 
 	- Implict 

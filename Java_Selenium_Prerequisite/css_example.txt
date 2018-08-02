@@ -1,0 +1,14 @@
+CSS Selector 
+
+tag[attribute='Value']
+
+
+input[name='searchTerm']
+
+table[class='table']
+
+
+div[class='board-content']>table[class='table']
+
+        div[class='offset2 span8']>div:nth-child(2)
+

@@ -10,7 +10,13 @@ public class Login_Scenario_2 {
 	static WebDriver driver;
 	public static void main(String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Selenium Training\\Batch2\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.ie.driver", "D:\\Selenium Training\\Batch2\\IEDriverServer_Win32_3.13.0\\IEDriverServer.exe");
+		//driver=new InternetExplorerDriver();
+		
+		//System.setProperty("webdriver.gecko.driver", "D:\\Selenium Training\\Batch2\\geckodriver-v0.21.0-win64\\geckodriver.exe");
+		//driver=new FirefoxDriver();
+		
+		System.setProperty("webdriver.chrome.driver", "D:\\Selenium Training\\Batch2\\geckodriver-v0.21.0-win64\\chromedriver.exe");
 		driver=new ChromeDriver();
 		
 		driver.manage().window().maximize();
