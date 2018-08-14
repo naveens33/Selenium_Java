@@ -13,6 +13,7 @@ import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -86,10 +87,19 @@ public class Inflow_Outflow_MyMoneyMap {
 		List<WebElement> tr=driver.findElements(By.xpath("//tr[contains(@id,'bd-Deposits')]/td/table/tbody/tr"));
 		for(int i=1;i<tr.size();i++)
 		{
-			String att=driver.findElement(By.xpath("//tr[contains(@id,'bd-Deposits')]/td/table/tbody/tr[contains(@class,'x-grid-row')]["+i+"]/td[1]")).getText();
-			String val=driver.findElement(By.xpath("//tr[contains(@id,'bd-Deposits')]/td/table/tbody/tr[contains(@class,'x-grid-row')]["+i+"]/td[2]")).getText();
-			Assert.assertEquals(attribute.get(i-1),att);
-			Assert.assertEquals(value.get(i-1),val);
+			
+			WebElement att_ele = driver.findElement(By.xpath("//tr[contains(@id,'bd-Deposits')]/td/table/tbody/tr[contains(@class,'x-grid-row')]["+i+"]/td[1]"));
+			WebElement val_ele=driver.findElement(By.xpath("//tr[contains(@id,'bd-Deposits')]/td/table/tbody/tr[contains(@class,'x-grid-row')]["+i+"]/td[2]"));
+			
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", att_ele);
+			js.executeScript("arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", val_ele);
+			 
+			//System.out.println("//tr[contains(@id,'bd-Deposits')]/td/table/tbody/tr[contains(@class,'x-grid-row')]["+i+"]/td[1]");
+			String actualattr=att_ele.getText();
+			String actualval=val_ele.getText();
+			Assert.assertEquals(attribute.get(i-1),actualattr);
+			Assert.assertEquals(value.get(i-1),actualval);
 		}
 		System.out.println("inflow");
 	}
