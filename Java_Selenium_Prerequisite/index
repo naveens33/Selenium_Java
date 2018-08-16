@@ -131,3 +131,4 @@ Hub setup:
 2. Open the cmd and enter the below command 
 java -jar D:\selenium-server-standalone-3.13.0.jar -role hub
 
+Junit vs TestNG 
