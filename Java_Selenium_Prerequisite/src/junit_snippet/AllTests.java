@@ -1,4 +1,4 @@
-package junit_complete_snippet_demo;
+package junit_snippet;
 
 import java.util.Arrays;
 import java.util.Collection;

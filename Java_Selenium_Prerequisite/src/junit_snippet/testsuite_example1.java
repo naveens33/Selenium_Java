@@ -1,4 +1,4 @@
-package junit_complete_snippet_demo;
+package junit_snippet;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
