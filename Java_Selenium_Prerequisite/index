@@ -131,4 +131,8 @@ Hub setup:
 2. Open the cmd and enter the below command 
 java -jar D:\selenium-server-standalone-3.13.0.jar -role hub
 
+Node setup:
+1. cmd prompt- Java-Dwebdriver.chrome.driver="chromedriver.exe" -Dwebdriver.ie.driver="IEDriverServer.exe" -Dwebdriver.gecko.driver="geckodriver.exe" -jar selenium-server-standalone-2.53.1.jar -role node -nodeConfig node1.json
+
+
 Junit vs TestNG 
